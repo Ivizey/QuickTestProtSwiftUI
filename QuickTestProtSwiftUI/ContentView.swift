@@ -9,17 +9,56 @@
 import SwiftUI
 
 struct ContentView: View {
+    @GestureState var dragState: DragState = .inactive
     var body: some View {
-        ZStack {
+        let dragGesture = DragGesture()
+            .updating($dragState) { (value, state, transc) in
+                state = .dragging(translations: value.translation)
+        }
+         return ZStack {
             Card(title: "Three")
+                .rotation3DEffect(Angle(degrees: dragState.isActive ? 0:60), axis: (x: 10, y: 10, z: 10))
                 .blendMode(.hardLight)
-                .padding(64)
-                .padding(.bottom, 64)
+                .padding(dragState.isActive ? 32:64)
+                .padding(.bottom, dragState.isActive ? 32:64)
+                .animation(.spring())
             Card(title: "Second")
+                .rotation3DEffect(Angle(degrees: dragState.isActive ? 0:30), axis: (x: 10, y: 10, z: 10))
                 .blendMode(.hardLight)
-                .padding(32)
-                .padding(.bottom, 32)
+                .padding(dragState.isActive ? 16:32)
+                .padding(.bottom, dragState.isActive ? 0:32)
+                .animation(.spring())
             MainCard(title: "Main card")
+                .rotationEffect(Angle(degrees: Double(dragState.translation.width / 10)))
+            .offset(
+                x: self.dragState.translation.width,
+                y: self.dragState.translation.height
+            )
+            .gesture(dragGesture)
+                .animation(.spring())
+        }
+    }
+}
+
+enum DragState {
+    case inactive
+    case dragging(translations: CGSize)
+    
+    var translation: CGSize {
+        switch self {
+        case .inactive:
+            return .zero
+        case .dragging(let translation):
+            return translation
+        }
+    }
+    
+    var isActive: Bool {
+        switch self {
+        case .inactive:
+            return false
+        case .dragging:
+            return true
         }
     }
 }
