@@ -10,17 +10,19 @@ import SwiftUI
 
 struct RGBullsEye: View {
   var body: some View {
-    VStack {
+    HStack {
+      VStack {
+        Rectangle()
+        Text("Match this color")
+      }
+      VStack {
+        Rectangle()
         HStack {
-            Text("Target Color Block")
-            Text("Guess Color Block")
+          Text("R: xxx")
+          Text("G: xxx")
+          Text("B: xxx")
         }
-        Text("Hit me button")
-        VStack {
-            Text("Red slider")
-            Text("Green slider")
-            Text("Blue slider")
-        }
+      }
     }
   }
 }
