@@ -33,6 +33,7 @@
 		47AC0E68240805FF00BE127D /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AC0E66240805FF00BE127D /* Data.swift */; };
 		47AC0E69240805FF00BE127D /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AC0E67240805FF00BE127D /* Landmark.swift */; };
 		47AC0E6B24081EBC00BE127D /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AC0E6A24081EBC00BE127D /* LandmarkRow.swift */; };
+		47AC0E6E240824EE00BE127D /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AC0E6D240824EE00BE127D /* LandmarkList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		47AC0E66240805FF00BE127D /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		47AC0E67240805FF00BE127D /* Landmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		47AC0E6A24081EBC00BE127D /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		47AC0E6D240824EE00BE127D /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				47AC0E6A24081EBC00BE127D /* LandmarkRow.swift */,
+				47AC0E6D240824EE00BE127D /* LandmarkList.swift */,
 			);
 			path = "Landmark Views";
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47AC0E462407F7C600BE127D /* MapView.swift in Sources */,
+				47AC0E6E240824EE00BE127D /* LandmarkList.swift in Sources */,
 				47AC0E052406864900BE127D /* AppDelegate.swift in Sources */,
 				47AC0E192406C56E00BE127D /* RGBullsEye.swift in Sources */,
 				47AC0E072406864900BE127D /* SceneDelegate.swift in Sources */,
