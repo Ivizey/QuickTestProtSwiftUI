@@ -10,7 +10,8 @@ import SwiftUI
 
 struct Landmarks: View {
     var body: some View {
-        Text("Hello World")
+        Text("Hello SwiftUI")
+            .font(.title)
     }
 }
 
