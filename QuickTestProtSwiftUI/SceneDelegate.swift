@@ -15,11 +15,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         
-        let contentView = RGBullsEye(rGuess: 0.5, gGuess: 0.5, bGuess: 0.5)
+        //let contentView = RGBullsEye(rGuess: 0.5, gGuess: 0.5, bGuess: 0.5)
 
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
-            window.rootViewController = UIHostingController(rootView: contentView)
+            window.rootViewController = UIHostingController(rootView: LandmarkList())
             self.window = window
             window.makeKeyAndVisible()
         }
