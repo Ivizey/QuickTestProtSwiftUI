@@ -104,7 +104,6 @@
 				47AC0E65240805FF00BE127D /* Models */,
 				47AC0E49240804B200BE127D /* CardView */,
 				47AC0E48240804A300BE127D /* Habr */,
-				47AC0E412407E92600BE127D /* LandmarkDetail.swift */,
 				47AC0E472408049900BE127D /* Supporting Views */,
 				47AC0E4A2408059900BE127D /* Resources */,
 				47AC0E0A2406864A00BE127D /* Assets.xcassets */,
@@ -182,6 +181,7 @@
 			children = (
 				47AC0E6A24081EBC00BE127D /* LandmarkRow.swift */,
 				47AC0E6D240824EE00BE127D /* LandmarkList.swift */,
+				47AC0E412407E92600BE127D /* LandmarkDetail.swift */,
 			);
 			path = "Landmark Views";
 			sourceTree = "<group>";

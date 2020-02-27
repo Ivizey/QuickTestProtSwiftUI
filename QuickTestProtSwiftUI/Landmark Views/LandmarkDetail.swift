@@ -1,5 +1,5 @@
 //
-//  Landmarks.swift
+//  LandmarkDetail.swift
 //  QuickTestProtSwiftUI
 //
 //  Created by Pavel Bondar on 27.02.2020.
@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct Landmarks: View {
+struct LandmarkDetail: View {
     var body: some View {
         VStack {
             MapView()
@@ -34,8 +34,8 @@ struct Landmarks: View {
     }
 }
 
-struct Landmarks_Preview: PreviewProvider {
+struct LandmarkDetail_Preview: PreviewProvider {
     static var previews: some View {
-        Landmarks()
+        LandmarkDetail()
     }
 }
