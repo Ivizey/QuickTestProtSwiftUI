@@ -35,6 +35,7 @@
 		47AC0E8B2409507500BE127D /* chilkoottrail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47AC0E7E2409507500BE127D /* chilkoottrail.jpg */; };
 		47AC0E8C2409507500BE127D /* rainbowlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47AC0E7F2409507500BE127D /* rainbowlake.jpg */; };
 		47AC0E8E240956C300BE127D /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AC0E8D240956C300BE127D /* UserData.swift */; };
+		47AC0E9024097AE800BE127D /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AC0E8F24097AE800BE127D /* Badge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		47AC0E7E2409507500BE127D /* chilkoottrail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chilkoottrail.jpg; sourceTree = "<group>"; };
 		47AC0E7F2409507500BE127D /* rainbowlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbowlake.jpg; sourceTree = "<group>"; };
 		47AC0E8D240956C300BE127D /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		47AC0E8F24097AE800BE127D /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +104,8 @@
 			children = (
 				47AC0E042406864900BE127D /* AppDelegate.swift */,
 				47AC0E062406864900BE127D /* SceneDelegate.swift */,
-				47AC0E712409089200BE127D /* Landmark */,
+				47AC0E9124097AEE00BE127D /* DrawingPathsAndShapes */,
+				47AC0E712409089200BE127D /* LandmarkApple */,
 				47AC0E49240804B200BE127D /* CardView */,
 				47AC0E48240804A300BE127D /* Habr */,
 				47AC0E0A2406864A00BE127D /* Assets.xcassets */,
@@ -166,7 +169,7 @@
 			path = "Landmark Views";
 			sourceTree = "<group>";
 		};
-		47AC0E712409089200BE127D /* Landmark */ = {
+		47AC0E712409089200BE127D /* LandmarkApple */ = {
 			isa = PBXGroup;
 			children = (
 				47AC0E65240805FF00BE127D /* Models */,
@@ -174,7 +177,7 @@
 				47AC0E472408049900BE127D /* Supporting Views */,
 				47AC0E722409507500BE127D /* Resources */,
 			);
-			path = Landmark;
+			path = LandmarkApple;
 			sourceTree = "<group>";
 		};
 		47AC0E722409507500BE127D /* Resources */ = {
@@ -195,6 +198,14 @@
 				47AC0E7F2409507500BE127D /* rainbowlake.jpg */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		47AC0E9124097AEE00BE127D /* DrawingPathsAndShapes */ = {
+			isa = PBXGroup;
+			children = (
+				47AC0E8F24097AE800BE127D /* Badge.swift */,
+			);
+			path = DrawingPathsAndShapes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,6 +303,7 @@
 				47AC0E092406864900BE127D /* ContentView.swift in Sources */,
 				47AC0E442407F3F400BE127D /* CircleImage.swift in Sources */,
 				47AC0E6B24081EBC00BE127D /* LandmarkRow.swift in Sources */,
+				47AC0E9024097AE800BE127D /* Badge.swift in Sources */,
 				47AC0E68240805FF00BE127D /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
