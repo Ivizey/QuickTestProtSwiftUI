@@ -34,6 +34,7 @@
 		47AC0E8A2409507500BE127D /* stmarylake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47AC0E7D2409507500BE127D /* stmarylake.jpg */; };
 		47AC0E8B2409507500BE127D /* chilkoottrail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47AC0E7E2409507500BE127D /* chilkoottrail.jpg */; };
 		47AC0E8C2409507500BE127D /* rainbowlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47AC0E7F2409507500BE127D /* rainbowlake.jpg */; };
+		47AC0E8E240956C300BE127D /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AC0E8D240956C300BE127D /* UserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		47AC0E7D2409507500BE127D /* stmarylake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stmarylake.jpg; sourceTree = "<group>"; };
 		47AC0E7E2409507500BE127D /* chilkoottrail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chilkoottrail.jpg; sourceTree = "<group>"; };
 		47AC0E7F2409507500BE127D /* rainbowlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbowlake.jpg; sourceTree = "<group>"; };
+		47AC0E8D240956C300BE127D /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 			children = (
 				47AC0E66240805FF00BE127D /* Data.swift */,
 				47AC0E67240805FF00BE127D /* Landmark.swift */,
+				47AC0E8D240956C300BE127D /* UserData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 				47AC0E192406C56E00BE127D /* RGBullsEye.swift in Sources */,
 				47AC0E072406864900BE127D /* SceneDelegate.swift in Sources */,
 				47AC0E422407E92600BE127D /* LandmarkDetail.swift in Sources */,
+				47AC0E8E240956C300BE127D /* UserData.swift in Sources */,
 				47AC0E69240805FF00BE127D /* Landmark.swift in Sources */,
 				47AC0E092406864900BE127D /* ContentView.swift in Sources */,
 				47AC0E442407F3F400BE127D /* CircleImage.swift in Sources */,
