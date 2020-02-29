@@ -36,6 +36,7 @@
 		47AC0E8C2409507500BE127D /* rainbowlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47AC0E7F2409507500BE127D /* rainbowlake.jpg */; };
 		47AC0E8E240956C300BE127D /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AC0E8D240956C300BE127D /* UserData.swift */; };
 		47AC0E9024097AE800BE127D /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AC0E8F24097AE800BE127D /* Badge.swift */; };
+		47AC0E9324097BBC00BE127D /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AC0E9224097BBC00BE127D /* HexagonParameters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 		47AC0E7F2409507500BE127D /* rainbowlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbowlake.jpg; sourceTree = "<group>"; };
 		47AC0E8D240956C300BE127D /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		47AC0E8F24097AE800BE127D /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		47AC0E9224097BBC00BE127D /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				47AC0E8F24097AE800BE127D /* Badge.swift */,
+				47AC0E9224097BBC00BE127D /* HexagonParameters.swift */,
 			);
 			path = DrawingPathsAndShapes;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47AC0E9324097BBC00BE127D /* HexagonParameters.swift in Sources */,
 				47AC0E462407F7C600BE127D /* MapView.swift in Sources */,
 				47AC0E6E240824EE00BE127D /* LandmarkList.swift in Sources */,
 				47AC0E052406864900BE127D /* AppDelegate.swift in Sources */,
