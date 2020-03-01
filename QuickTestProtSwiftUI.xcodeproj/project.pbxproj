@@ -166,7 +166,6 @@
 			children = (
 				47AC0E432407F3F400BE127D /* CircleImage.swift */,
 				47AC0E452407F7C600BE127D /* MapView.swift */,
-				470E394B240BCD660049E94D /* CategoryRow.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -200,6 +199,7 @@
 		47AC0E6C24081EC800BE127D /* Landmark Views */ = {
 			isa = PBXGroup;
 			children = (
+				470E394B240BCD660049E94D /* CategoryRow.swift */,
 				47AC0E6A24081EBC00BE127D /* LandmarkRow.swift */,
 				47AC0E6D240824EE00BE127D /* LandmarkList.swift */,
 				47AC0E412407E92600BE127D /* LandmarkDetail.swift */,
