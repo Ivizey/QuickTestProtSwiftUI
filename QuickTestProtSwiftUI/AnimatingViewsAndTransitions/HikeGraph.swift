@@ -10,14 +10,22 @@ import SwiftUI
 
 func rangeOfRanges<C: Collection>(_ ranges: C) -> Range<Double>
     where C.Element == Range<Double> {
-    guard !ranges.isEmpty else { return 0..<0 }
-    let low = ranges.lazy.map { $0.lowerBound }.min()!
-    let high = ranges.lazy.map { $0.upperBound }.max()!
-    return low..<high
+        guard !ranges.isEmpty else { return 0..<0 }
+        let low = ranges.lazy.map { $0.lowerBound }.min()!
+        let high = ranges.lazy.map { $0.upperBound }.max()!
+        return low..<high
 }
 
 func magnitude(of range: Range<Double>) -> Double {
     return range.upperBound - range.lowerBound
+}
+
+extension Animation {
+    static func ripple(index: Int) -> Animation {
+        Animation.spring(dampingFraction: 0.5)
+            .speed(2)
+            .delay(0.03 * Double(index))
+    }
 }
 
 struct HikeGraph: View {
@@ -42,7 +50,7 @@ struct HikeGraph: View {
         let overallRange = rangeOfRanges(data.lazy.map { $0[keyPath: self.path] })
         let maxMagnitude = data.map { magnitude(of: $0[keyPath: path]) }.max()!
         let heightRatio = (1 - CGFloat(maxMagnitude / magnitude(of: overallRange))) / 2
-
+        
         return GeometryReader { proxy in
             HStack(alignment: .bottom, spacing: proxy.size.width / 120) {
                 ForEach(data.indices) { index in
@@ -51,7 +59,9 @@ struct HikeGraph: View {
                         height: proxy.size.height,
                         range: data[index][keyPath: self.path],
                         overallRange: overallRange)
-                    .colorMultiply(self.color)
+                        .colorMultiply(self.color)
+                        .transition(.slide)
+                        .animation(.ripple(index: index))
                 }
                 .offset(x: 0, y: proxy.size.height * heightRatio)
             }
