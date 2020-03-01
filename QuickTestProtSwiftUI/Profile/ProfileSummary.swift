@@ -1,11 +1,3 @@
-//
-//  ProfileSummary.swift
-//  QuickTestProtSwiftUI
-//
-//  Created by Pavel Bondar on 01.03.2020.
-//  Copyright © 2020 Pavel Bondar. All rights reserved.
-//
-
 import SwiftUI
 
 struct ProfileSummary: View {
@@ -30,7 +22,6 @@ struct ProfileSummary: View {
             
             Text("Goal Date: \(self.profile.goalDate, formatter: Self.goalFormat)")
             
-            
             VStack(alignment: .leading) {
                 Text("Completed Badges")
                     .font(.headline)
@@ -40,6 +31,7 @@ struct ProfileSummary: View {
                         
                         HikeBadge(name: "Earth Day")
                             .hueRotation(Angle(degrees: 90))
+                        
                         
                         HikeBadge(name: "Tenth Hike")
                             .grayscale(0.5)
