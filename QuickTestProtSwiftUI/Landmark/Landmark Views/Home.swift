@@ -18,9 +18,9 @@ struct CategoryHome: View {
     
     var body: some View {
         NavigationView {
-            List {
+            HStack(alignment: .top, spacing: 0) {
                 ForEach(categories.keys.sorted(), id: \.self) { key in
-                    Text(key)
+                    CategoryRow(categoryName: key, items: self.categories[key]!)
                 }
             }
             .navigationBarTitle(Text("Featured"))
