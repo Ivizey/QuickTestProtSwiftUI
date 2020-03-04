@@ -25,6 +25,7 @@
 		470E3957240C0DDE0049E94D /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470E3956240C0DDE0049E94D /* ProfileEditor.swift */; };
 		470E3959240CEF010049E94D /* TestButtonSpring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470E3958240CEF010049E94D /* TestButtonSpring.swift */; };
 		470E39BF240E51200049E94D /* GeomertyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470E39BE240E51200049E94D /* GeomertyList.swift */; };
+		47425553240FD11600D20F9B /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47425552240FD11600D20F9B /* SignInView.swift */; };
 		47AC0E052406864900BE127D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AC0E042406864900BE127D /* AppDelegate.swift */; };
 		47AC0E072406864900BE127D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AC0E062406864900BE127D /* SceneDelegate.swift */; };
 		47AC0E092406864900BE127D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AC0E082406864900BE127D /* ContentView.swift */; };
@@ -76,6 +77,7 @@
 		470E3956240C0DDE0049E94D /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 		470E3958240CEF010049E94D /* TestButtonSpring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestButtonSpring.swift; sourceTree = "<group>"; };
 		470E39BE240E51200049E94D /* GeomertyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeomertyList.swift; sourceTree = "<group>"; };
+		47425552240FD11600D20F9B /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		47AC0E012406864800BE127D /* QuickTestProtSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickTestProtSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47AC0E042406864900BE127D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47AC0E062406864900BE127D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 				47AC0E042406864900BE127D /* AppDelegate.swift */,
 				47AC0E062406864900BE127D /* SceneDelegate.swift */,
 				470E39BE240E51200049E94D /* GeomertyList.swift */,
+				47425552240FD11600D20F9B /* SignInView.swift */,
 				470E395A240D63640049E94D /* TestElements */,
 				470E393E240A7CBA0049E94D /* AnimatingViewsAndTransitions */,
 				47AC0E9124097AEE00BE127D /* DrawingPathsAndShapes */,
@@ -388,6 +391,7 @@
 				47AC0E192406C56E00BE127D /* RGBullsEye.swift in Sources */,
 				470E393B240A782D0049E94D /* RotatedBadgeSymbol.swift in Sources */,
 				470E3939240A75F00049E94D /* BadgeSymbol.swift in Sources */,
+				47425553240FD11600D20F9B /* SignInView.swift in Sources */,
 				470E3953240C03C10049E94D /* ProfileSummary.swift in Sources */,
 				470E3957240C0DDE0049E94D /* ProfileEditor.swift in Sources */,
 				470E394C240BCD660049E94D /* CategoryRow.swift in Sources */,
